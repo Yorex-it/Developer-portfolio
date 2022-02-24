@@ -5,8 +5,9 @@ body{
 .name{
     color: orange;
 }
-section{
+.fexible{
     display: flex;
+    margin-bottom: 200px;
 }
 .half-width{
     width: 50%;
@@ -23,7 +24,44 @@ section{
     font-weight: 700;
     background-image: linear-gradient(rgb(143, 247, 8),rgb(230, 50, 5));
 }
-#top-bannar{
+.top-bannar{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.baba{
+    display: flex;
+    margin-bottom: 200px;
+}
+.margin{
+    margin-left: 50px;
+}
+.shadow{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    box-shadow: 10px 10px 40px green;
+
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#civil{
+    border-left: 7px solid;
+    border-image: linear-gradient(black,red);
+    border-image-slice: 1;
+}
+#study{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(59, 6, 250),rgb(6, 221, 24));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
